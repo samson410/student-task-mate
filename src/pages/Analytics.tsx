@@ -32,6 +32,7 @@ export default function Analytics() {
     const { data: { session } } = await supabase.auth.getSession();
     if (!session) {
       navigate('/auth');
+      return;
     }
   };
 

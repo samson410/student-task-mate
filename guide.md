@@ -29,15 +29,16 @@ TaskFlow is a full-stack productivity dashboard built for freelancers and studen
 - Analyzes pending tasks and provides 3-5 actionable suggestions
 
 ## Key Features Implemented
-1. ✅ Email/password authentication (signup + login)
-2. ✅ Dashboard with task statistics and recent tasks
-3. ✅ Full CRUD operations for tasks
-4. ✅ Task filtering by status (tabs)
-5. ✅ AI-powered task suggestions
-6. ✅ Analytics page with charts (status, priority, category)
-7. ✅ Settings page with dark/light mode toggle
-8. ✅ Responsive sidebar navigation
-9. ✅ Professional blue design system
+1. ✅ Landing page with hero section and feature showcase
+2. ✅ Email/password authentication (signup + login)
+3. ✅ Dashboard with task statistics and recent tasks
+4. ✅ Full CRUD operations for tasks
+5. ✅ Task filtering by status (tabs)
+6. ✅ AI-powered task suggestions
+7. ✅ Analytics page with charts (status, priority, category)
+8. ✅ Settings page with dark/light mode toggle
+9. ✅ Responsive sidebar navigation
+10. ✅ Professional blue design system
 
 ## Project Structure
 ```
@@ -49,6 +50,7 @@ src/
 │   ├── TaskCard.tsx     # Task display card
 │   └── TaskDialog.tsx   # Add/Edit task modal
 ├── pages/
+│   ├── Landing.tsx      # Public landing page
 │   ├── Auth.tsx         # Login/Signup
 │   ├── Dashboard.tsx    # Home page with stats
 │   ├── Tasks.tsx        # Task management
